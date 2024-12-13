@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Company</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Explore the World with Us</h1>
+        <nav>
+            <ul>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#places">Places to Visit</a></li>
+                <li><a href="#login">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="gallery">
+            <h2>Photo Gallery</h2>
+            <div class="gallery">
+                <img src="photo 5.jpg" >
+                <img src="photo 6.jpg" >
+                <img src="photo 7.jpg" >
+                <img src="photo 8.jpg" >
+            </div>
+        </section>
+
+        <section id="places">
+            <h2>Places to Visit</h2>
+            <div class="place">
+                <h3>Paris</h3>
+                <p>The city of lights and love.</p>
+            </div>
+            <div class="place">
+                <h3>New York</h3>
+                <p>The city that never sleeps.</p>
+            </div>
+            <div class="place">
+                <h3>Tokyo</h3>
+                <p>A bustling metropolis with rich culture.</p>
+            </div>
+        </section>
+
+        <section id="login">
+            <h2>Login</h2>
+            <form id="loginForm">
+                <label for="username">Username:</label>
+                <input type="text" id="username" required>
+                
+                <label for="password">Password:</label>
+                <input type="password" id="password" required>
+                
+                <button type="submit">Login</button>
+            </form>
+            <p id="loginMessage"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Travel Company. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
